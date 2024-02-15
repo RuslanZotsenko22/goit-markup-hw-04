@@ -159,6 +159,7 @@ address {
   width: 1158px;
   padding: 0 15px;
   border-bottom: 1px solid #e7e9fc;
+  margin: 0 auto;
 }
 .nav {
   display: flex;
@@ -169,6 +170,7 @@ address {
 
 .header__container {
   display: flex;
+  border-bottom: 1px solid #e7e9fc;
 }
 .menu-nav {
   display: flex;
