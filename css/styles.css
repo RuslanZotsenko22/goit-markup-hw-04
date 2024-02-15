@@ -201,7 +201,7 @@ address {
   border: 0;
 }
 .first {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .section-footer {
