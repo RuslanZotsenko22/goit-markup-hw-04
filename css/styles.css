@@ -29,6 +29,8 @@ address {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .navigation:hover,
@@ -200,4 +202,8 @@ address {
 }
 .first {
   width: calc((100% - 72px) / 4);
+}
+
+.section-footer {
+  padding: 100px 0;
 }
