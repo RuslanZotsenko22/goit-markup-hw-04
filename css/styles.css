@@ -151,11 +151,10 @@ address {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
-  row-gap: 48px;
 }
 .team-card {
   background-color: #ffffff;
-  border-radius: 0px 0px 14px `4px;
+  border-radius: 0px 0px 4px 4px;
 }
 .studio-second {
   font-family: "Raleway", sans-serif;
@@ -213,7 +212,6 @@ address {
 }
 .first {
   flex-basis: calc((100%-72px) / 4);
-  gap: 24px;
 }
 
 .section-footer {
@@ -230,4 +228,10 @@ address {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
+}
+.four-section-list {
+  row-gap: 48px;
+}
+.link-li {
+  width: calc((100% - 48px) / 3);
 }
