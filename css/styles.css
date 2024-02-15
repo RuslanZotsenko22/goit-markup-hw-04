@@ -9,6 +9,10 @@ img {
 ul {
   list-style-type: none;
 }
+ul,
+ol {
+  padding-left: 0;
+}
 a {
   text-decoration: none;
   font-family: inherit;
@@ -105,6 +109,7 @@ address {
   letter-spacing: 0.02em;
   background-color: #FFFFF;
   margin-bottom: 8px;
+  text-align: center;
 }
 .text {
   color: #434455;
@@ -115,6 +120,8 @@ address {
 }
 .our-team-first {
   background-color: #f4f4fd;
+  padding: 120px 0;
+  text-align: center;
 }
 .title-h {
   font-weight: 700;
@@ -125,6 +132,7 @@ address {
   color: #2e2f42;
   text-align: center;
   background-color: #ffffff;
+  margin-bottom: 72px;
 }
 .section-footer {
   background-color: #2e2f42;
@@ -145,6 +153,7 @@ address {
 }
 .team-card {
   background-color: #ffffff;
+  border-radius: 0px 0px 14px `4px;
 }
 .studio-second {
   font-family: "Raleway", sans-serif;
@@ -201,9 +210,12 @@ address {
   border: 0;
 }
 .first {
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100%-72px) / 4);
 }
 
 .section-footer {
   padding: 100px 0;
+}
+.name {
+  padding: 32px 0;
 }
