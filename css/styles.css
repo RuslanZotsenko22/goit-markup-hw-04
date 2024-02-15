@@ -213,6 +213,7 @@ address {
 }
 .first {
   flex-basis: calc((100%-72px) / 4);
+  gap: 24px;
 }
 
 .section-footer {
