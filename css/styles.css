@@ -1,0 +1,145 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  font-family: inherit;
+  color: inherit;
+}
+address {
+  font-style: normal;
+}
+.web-title {
+  color: #2e2f42;
+}
+.studio-title {
+  color: #4d5ae5;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.navigation:hover,
+.navigation:focus {
+  color: #404bbf;
+}
+
+.navigation {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: #2e2f42;
+  letter-spacing: 0.32px;
+}
+.nav2:hover {
+  color: #4d5ae5;
+}
+
+.navigation-second {
+  color: #434455;
+
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+
+.navigation-second:hover,
+.navigation-second:focus {
+  color: #404bbf;
+}
+
+.section {
+  background-color: #2e2f42;
+}
+.title {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+}
+.button {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+
+  border: none;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+.benefits {
+  color: #ffffff;
+}
+.strategy {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  background-color: #FFFFF;
+}
+.text {
+  color: #434455;
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.our-team-first {
+  background-color: #f4f4fd;
+}
+.title-h {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  text-align: center;
+  background-color: #ffffff;
+}
+.section-footer {
+  background-color: #2e2f42;
+}
+.studio-first {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.link {
+  background-color: #ffffff;
+}
+.team-card {
+  background-color: #ffffff;
+}
+.studio-second {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.footer-studio {
+  color: #f4f4fd;
+}
+.text-footer {
+  color: #f4f4fd;
+}
