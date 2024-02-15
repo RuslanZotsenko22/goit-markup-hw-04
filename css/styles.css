@@ -107,7 +107,7 @@ address {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  background-color: #FFFFF;
+  background-color: #fff;
   margin-bottom: 8px;
   text-align: center;
 }
@@ -211,7 +211,7 @@ address {
   overflow: hidden;
 }
 .first {
-  width calc((100% - 3 * 24px);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .section-footer {
