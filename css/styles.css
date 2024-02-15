@@ -150,6 +150,8 @@ address {
   background-color: #ffffff;
   display: flex;
   gap: 24px;
+  flex-wrap: wrap;
+  row-gap: 48px;
 }
 .team-card {
   background-color: #ffffff;
@@ -218,4 +220,13 @@ address {
 }
 .name {
   padding: 32px 0;
+}
+.four-section {
+  padding: 120px 0 120px 0;
+}
+.link-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
