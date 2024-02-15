@@ -28,6 +28,7 @@ address {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .navigation:hover,
@@ -42,6 +43,7 @@ address {
   line-height: 24px;
   color: #2e2f42;
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 .nav2:hover {
   color: #4d5ae5;
@@ -145,4 +147,28 @@ address {
 }
 .text-footer {
   color: #f4f4fd;
+}
+.conteiner-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.container {
+  width: 1158px;
+  padding: 0 15px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 76px;
+}
+
+.header__container {
+  display: flex;
+}
+.menu-nav {
+  display: flex;
+  gap: 40px;
+}
+.nav-address {
+  display: flex;
+  gap: 40px;
 }
