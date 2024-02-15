@@ -72,6 +72,7 @@ address {
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
+  max-width: 496px;
 }
 .button {
   color: #ffffff;
@@ -80,9 +81,12 @@ address {
   line-height: 150%;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
-
+  display: block;
   border: none;
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
 }
 .button:hover,
 .button:focus {
@@ -154,11 +158,13 @@ address {
 .container {
   width: 1158px;
   padding: 0 15px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .nav {
   display: flex;
   align-items: center;
   gap: 76px;
+  margin: 0 auto;
 }
 
 .header__container {
@@ -171,4 +177,7 @@ address {
 .nav-address {
   display: flex;
   gap: 40px;
+}
+.section {
+  padding: 188px 0;
 }
