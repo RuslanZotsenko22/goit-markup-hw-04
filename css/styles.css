@@ -170,6 +170,7 @@ address {
 }
 .text-footer {
   color: #f4f4fd;
+  width: 264px;
 }
 .container-header {
   border-bottom: 1px solid #e7e9fc;
